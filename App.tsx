@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { Platform } from 'react-native';
 import { lightColors, createTheme, ThemeProvider } from '@rneui/themed';
 import { TabNavigator } from './Navigation';

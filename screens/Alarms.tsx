@@ -80,7 +80,7 @@ export const Alarms: React.FC = ({ navigation }: { navigation: any }) => {
         icon={{ name: "add" }}
         style={{ backgroundColor: "#614D9E" }}
         placement="right"
-        onPress={() => navigation.navigate("Creación")}
+        onPress={() => navigation.navigate("Creación Alarma")}
       />
     </>
   );
@@ -111,7 +111,7 @@ function AlarmCard({
         borderWidth: 2,
       }}
     >
-      <Pressable onPress={() => navigation.navigate("Creación")}>
+      <Pressable onPress={() => navigation.navigate("Creación Alarma")}>
         <View style={{ flexDirection: "row" }}>
           <View
             style={{
